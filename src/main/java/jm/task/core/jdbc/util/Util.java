@@ -38,7 +38,7 @@ public class Util {
         return connection;
     }
     public static SessionFactory sessionFactory;
-    public SessionFactory getSessionFactory() {
+    public static SessionFactory getSessionFactory() {
         if (sessionFactory == null) {
             try {
                 Configuration configuration = new Configuration();
